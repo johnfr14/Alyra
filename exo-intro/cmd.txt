@@ -1,0 +1,32 @@
+manuel commande linux
+
+man : manuel complet des commandes du terminal
+
+pwd (print working directory): donne l'endroit où l'on se trouve
+
+cd (change directory): changement de repertoir selon les infos donner
+  cd .. : repertoir précedent
+  cd dossier/ : repertoir selectionné
+  cd ~ : retour au dossier source
+
+ls (list): list les fichiers/dossiers du repertoir selectionné (repertoir courant par défault)
+  ls -l   affiche en détaille les informations fichiers/dossiers
+  ls -a   affiche les dossiers caché
+
+mkdir (make directory) : créer un répertoir
+
+touch : créer un fichier quelconque
+
+rm (remove): supprime les fichiers/dossiers selectionné
+  rm -r supprime le repertoire et tout ce qui se trouve dedans
+  rm -f force la suppression (dangereux)
+
+mv (move) : bouge un dossier/fichier dans un autre dossier. quand un fichier/dossier selectionné est déplacé dans un dossier inconnus cela lui change le nom 
+
+cp (copy) : copie un fichier/dossier
+
+cat : affiche le contenu du fichier 
+
+sudo (substitute user do): Cette commande permet à un administrateur système d'accorder à certains utilisateurs (ou groupes d'utilisateurs)
+                           la possibilité de lancer une commande en tant qu'administrateur,
+                           ou en tant qu'autre utilisateur, tout en conservant une trace des commandes saisies et des arguments.
